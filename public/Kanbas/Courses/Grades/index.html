@@ -1,0 +1,62 @@
+<html>
+    <select id="gradebook">
+                <option selected value="OPTION1">Gradebook</option>
+                <option value="OPTION2">Option 2</option>
+            </select>
+            <button type="button">Import</button>
+            <select id="export">
+                <option selected value="OPTION1">Export</option>
+                <option value="OPTION2">Option 2</option>
+            </select>
+            <button type="button">Configure</button>
+            <h3>Student Names</h3>
+            <form id="student-names">
+                <input id="student-search-box" placeholder="Search Students" />
+            </form>
+            <h3>Assignment Names</h3>
+            <form id="assignment-names">
+                <input id="assignment-search-box" placeholder="Search Assignments" />
+            </form>
+            <button type="button">Apply Filters</button>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>A1 SETUP </br> Out Of 100</th>
+                        <th>A2 HTML </br> Out of 100</th>
+                        <th>A3 CSS </br> Out of 100</th>
+                        <th>A4 BOOTSTRAP </br> Out Of 100</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alice Wonderland</td>
+                        <td>98</td>
+                        <td><input type="number" id="alice-wonderland-a2" value="81" /></td>
+                        <td>87</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Princess Leia</td>
+                        <td>98</td>
+                        <td>80</td>
+                        <td><input type="number" id="princess-leia-a3" value="49" /></td>
+                        <td>86</td>
+                    </tr>
+                    <tr>
+                        <td>Luke Skywalker</td>
+                        <td><input type="number" id="luke-skywalker-a1" value="92" /></td>
+                        <td>82</td>
+                        <td>84</td>
+                        <td>91</td>
+                    </tr>
+                    <tr>
+                        <td>Han Solo</td>
+                        <td>93</td>
+                        <td>99</td>
+                        <td>89</td>
+                        <td><input type="number" id="han-solo-a4" value="22" /></td>
+            </tr>
+         </tbody>
+    </table>
+</html>
