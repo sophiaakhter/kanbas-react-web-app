@@ -34,89 +34,11 @@ body {
     padding-right: 0;
     position: fixed;
   }
-  
-  .wd-navbar-list {
-    text-align: center;
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  .wd-navbar-link {
-    background-color: black;
-    color: white;
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-bottom: 10px;
-    text-decoration: none;
-  }
-  
-  .wd-navbar-link:hover {
-    color: white;
-  }
-  
-  .wd-navbar-link-active {
-    background-color: white;
-    color: rgb(208, 15, 15);
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-bottom: 10px;
-    text-decoration: none;
-  }
-  
-  .wd-navbar-icon {
-    color: rgb(208, 15, 15);
-    font-size: x-large;
-    justify-content: center;
-  }
-  
-  .wd-logo {
-    width: 70px;
-    margin-left: 20px;
-  }
-  
-  .wd-navbar-link-text {
-    font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-  }
-  
-  .wd-navbar-secondary {
-    max-width: 190px;
-    min-height: 100%;
-    width: 100%;
-    float: left;
-    padding-left: 25px;
-    min-width: 190px
-
-  }
 
   .modules-nav {
     margin-left: 80px;
     margin-right: 70px;
     z-index: 2;
-  }
-  
-  .wd-navbar-secondary-list {
-    justify-content: left;
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  .wd-navbar-secondary-item {
-    padding-bottom: 10px;
-  }
-  
-  .wd-navbar-secondary-link {
-    text-decoration: none;
-    color: rgb(208, 15, 15);
-  }
-  
-  .wd-navbar-secondary-item .active {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .wd-navbar-secondary-link:hover {
-    color: rgb(208, 15, 15);
   }
   
   .wd-topbar-header {
@@ -126,140 +48,12 @@ body {
     margin-bottom: 10px;
     font-weight: 300;
   }
-  
-  .wd-topbar-icon {
-    padding-top: 1pc;
-    padding-left: 1pc;
-  }
-  
-  .wd-topbar-line {
-    margin-top: 8px;
-    max-width: 100%;
-    border: 1px;
-  }
-  
-  .wd-small-screen-header {
-    height: 100px;
-    margin-bottom: 2pc;
-  }
-  
-  .wd-small-screen-header-page-description {
-    font-size: 20px;
-    font-weight: 300;
-    color: white;
-    text-align: center;
-    float: left;
-    margin-left: 2pc;
-    margin-top: 1pc;
-  }
+
   
   .navbar {
     justify-content: left;
   }
   
-  .btn-primary {
-    background-color: rgb(230, 230, 230);
-    color: black;
-    font-size: small;
-  }
-  
-  .btn-danger {
-    font-size: small;
-  }
-  
-  .btn-success {
-    background-color: rgb(170, 240, 170);
-    font-size: small;
-  }
-  
-  .btn {
-    border-radius: 5px;
-    border-width: 0.1;
-    border-color: rgb(200, 200, 200);
-  }
-  
-  .wd-btn-text {
-    font-size: medium;
-  }
-  
-  .wd-small-navbar {
-    width: fit-content;
-    min-height: 100%;
-    background-color: white;
-    float: left;
-  }
-  
-  .wd-small-navbar-list {
-    min-height: 100%;
-    text-align: left;
-    list-style-type: none;
-    padding-left: 0;
-    margin-top: 2pc;
-  }
-  
-  .wd-small-navbar-link {
-    color: rgb(208, 15, 15);
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-bottom: 10px;
-    text-decoration: none;
-  }
-  
-  .wd-small-navbar-link:hover {
-    color: rgb(208, 15, 15);
-  }
-  
-  .wd-small-navbar-icon {
-    color: rgb(208, 15, 15);
-    font-size: 32px;
-    margin-right: 2pc;
-  }
-  
-  .wd-small-navbar-item {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-  }
-  
-  .wd-small-navbar-exit-button {
-    margin-top: 1pc;
-    margin-right: 1pc;
-    float: right;
-  }
-  
-  .wd-small-navbar-secondary {
-    width: fit-content;
-    min-height: 100%;
-    background-color: white;
-    float: left;
-  }
-  
-  .wd-small-navbar-secondary-list {
-    text-align: left;
-    list-style-type: none;
-    padding-left: 0;
-    margin-top: 2pc;
-  }
-  
-  .wd-small-navbar-secondary-item {
-    padding-bottom: 15px;
-  }
-  
-  .wd-small-navbar-secondary-link {
-    text-decoration: none;
-    color: rgb(208, 15, 15);
-  }
-  
-  .wd-navbar-secondary-item .active {
-    border-left: 2px solid black;
-    padding-left: 3px;
-    text-decoration: none;
-    color: black;
-  }
-  
-  .wd-small-navbar-secondary-link:hover {
-    color: rgb(208, 15, 15);
-  }
 
   .wd-course-home-main-content {
     padding-left: 0;
@@ -268,26 +62,12 @@ body {
 
   }
   
-  .wd-course-home-main-content-top-row {
-    display: flex;
-    width: 100%;
-    justify-content: end;
-      height: fit-content;
-  }
-  
-  .wd-course-home-main-content-button {
-    width: fit-content;
-    margin-left: 5px;
-  }
-
-  /* Style the navbar */
 .navbar {
   background-color: black;
   color: white;
   padding: 10px 0;
 }
 
-/* Style the navbar list */
 .navbar ul {
   list-style-type: none;
   margin: 0;
@@ -295,7 +75,6 @@ body {
   text-align: center;
 }
 
-/* Style the navbar links */
 .navbar a {
   text-decoration: none;
   color: red;
@@ -307,22 +86,6 @@ a#nav-bar-link:hover{
   text-decoration: underline;
 }
 
-.navbar-nav{
-  background-color: white;
-  text-align: left !important;
-}
-
-.nav-bar-position {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  background-color: black;
-  border-radius: 0 !important;
-}
-
-
-
-/* Style the dropdown menu items */
 .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
   background-color: white !important;
 }
@@ -349,20 +112,17 @@ a#nav-bar-link:hover{
 
 }
 
-/* Reset default margin and padding */
 body {
   margin: 0;
   padding: 0;
 }
 
-/* Style the navbar */
 .navbar {
   background-color: black;
   color: white;
   padding: 10px 0;
 }
 
-/* Style the navbar list */
 .navbar ul {
   list-style-type: none;
   margin: 0;
@@ -370,7 +130,6 @@ body {
   text-align: center;
 }
 
-/* Style the navbar links */
 .navbar a {
   text-decoration: none;
   color: red;
@@ -387,9 +146,6 @@ a#nav-bar-link:hover{
   text-align: left !important;
 }
 
-
-
-/* Style the dropdown menu items */
 .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
   background-color: white !important;
 }
@@ -418,8 +174,4 @@ a#nav-bar-link:hover{
 
 .navbar-toggler-icon {
 	margin-left: 2rem;
-}
-
-.dropdown-toggle {
-  margin-right: 1.5rem;
 }
