@@ -1,0 +1,162 @@
+.course-status-header {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+}
+
+
+.wd-course-header {
+	display: grid;
+	height: 50px;
+	align-items: end;
+	margin-left: 7rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.wd-course-header .fa-bars {
+	margin-right: 6px;
+}
+
+.wd-topbar-header {
+    margin-top: 0;
+}
+
+.wd-course-breadcrumb-link {
+	text-decoration: none;
+	color: rgb(208, 15, 15);
+}
+
+.wd-course-breadcrumb-link:hover {
+	color: rgb(208, 15, 15);
+}
+
+
+.header-buttons-div {
+    display: flex;
+    flex-direction: wrap;
+    column-gap: 3px;
+}
+
+.header-buttons-div .unpublish-button {
+    color: #2d3b45;
+    border-width: 1px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 10px;
+    width: 50%;
+   
+}
+
+.header-buttons-div .published-button {
+    background-color: rgb(141, 192, 163);
+    color: white;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 10px;
+    width: 50%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+   
+}
+
+
+.course-status-buttons {
+    width: 100%;
+    text-align: left;
+    color: #2d3b45;
+    border-width: 1px;
+    border-color: lightgray;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 10px;
+}
+
+.course-status-buttons .course-status-buttons-links {
+    text-decoration: none;
+    color: #2d3b45;
+}
+
+.to-do-list {
+    list-style: none;
+    counter-reset: item;
+  }
+
+.to-do-list-text {
+    text-decoration: none;
+    color: red;
+}
+
+.to-do-list  li {
+    counter-increment: item;
+    margin-bottom: 5px;
+  }
+
+.to-do-list li:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: red;
+    border-radius: 100%;
+    color: white;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+  }
+
+.coming-up-div {
+    display:flex;
+    flex-direction: wrap;
+}
+
+.to-do-title {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+}
+
+.coming-up-div .coming-up-title {
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+}
+
+.coming-up-div .view-calendar-button {
+    display: flex;
+    text-decoration: none;
+    color: red;
+    font-size: 13px;
+    font-weight: lighter;
+    justify-content: flex-end;
+    margin-left: auto;
+    font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+    
+}
+
+hr {
+    color: #2d3b45;
+}
+
+.coming-up-items {
+    text-decoration: none;
+    color: red;
+    font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+}
+
+
+.navbar-toggler-icon {
+    background-color: pink;
+}
+
+.dropdown-navbar-toggle {
+    background-color: pink;
+}
+
+.course-status-div {
+    margin-right: 10px;
+}

@@ -1,0 +1,88 @@
+.wd-kanbas-navigation {
+    background-color: black;
+    list-style: none;
+    margin-right: 30px;
+    width: 80px;
+    height: 125rem;
+    padding: 0px;
+  }
+  .wd-kanbas-navigation li {
+    padding: 10px;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .northeastern-logo {
+    width: 60px;
+  }
+  .wd-kanbas-navigation li.wd-active {
+    background-color: white;
+  }
+  .wd-kanbas-navigation li.wd-active a {
+    color: red;
+    text-decoration: none;
+  }
+  .wd-kanbas-navigation a {
+    color: white;
+    text-decoration: none;
+  }
+  .wd-kanbas-navigation a i {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  .wd-kanbas-navigation .account-icon {
+    -webkit-text-stroke-color: white;
+  }
+
+  .big-kanbas-navigation {
+    display:block;
+    background-color: white;
+    list-style: none;
+    margin-right: 30px;
+    margin-left: 12rem;
+    width: 80px;
+    height: 125rem;
+    padding: 0px;
+  }
+  .big-kanbas-navigation li {
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .northeastern-logo {
+    width: 60px;
+  }
+  .big-kanbas-navigation li.wd-active {
+    background-color: white;
+  }
+  .big-kanbas-navigation li.wd-active a {
+    color: red;
+    text-decoration: none;
+  }
+  .big-kanbas-navigation a {
+    color: red;
+    text-decoration: none;
+  }
+  .big-kanbas-navigation a i {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  .big-kanbas-navigation .account-icon {
+    -webkit-text-stroke-color: red;
+  }
+
+  .x-button {
+    background-color: pink;
+    margin: 1rem;
+  }
+
+  .header-class {
+    float: right;
+  }

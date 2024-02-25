@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  body * {
+    font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+  }
+  
+  body h1 {
+    font-weight: bold;
+    color: #2d3b45;
+    font-size: 2.375rem;
+  }
+
+  body h2 {
+    font-weight: normal;
+    color: #2d3b45;
+    font-size: 2rem;
+  }
+
+  .row > * {
+    padding-right: 0 !important;
+  }
+
+  .account-nav-width{
+    width:190px;
+ }
+  
+  .wd-navbar {
+    width: 85px;
+    min-height: 100%;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+  }
+
+  .modules-nav {
+    margin-left: 80px;
+    margin-right: 70px;
+    z-index: 2;
+  }
+  
+  .wd-topbar-header {
+    font-size: x-large;
+    padding-left: 1pc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+
+  
+  .navbar {
+    justify-content: left;
+  }
+  
+
+  .wd-course-home-main-content {
+    padding-left: 0;
+    padding-right: 20px;
+    max-width: 100%;
+
+  }
+  
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: red;
+  font-weight: normal;
+  font-size: small;
+}
+
+a#nav-bar-link:hover{
+  text-decoration: underline;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+  background-color: white !important;
+}
+
+
+.nav-icon-padding-l-r{
+  padding-left: 15px;
+  padding-right: 8px;
+
+}
+
+.navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-item a:hover {
+  color:red;
+  text-decoration: underline;
+
+}
+
+.navbar-nav .nav-item a:focus {
+  color:red;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: red;
+  font-weight: normal;
+  font-size: small;
+}
+
+a#nav-bar-link:hover{
+  text-decoration: underline;
+}
+
+.navbar-nav{
+  background-color: white;
+  text-align: left !important;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+  background-color: white !important;
+}
+
+
+.nav-icon-padding-l-r{
+  padding-left: 15px;
+  padding-right: 8px;
+
+}
+
+.navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-item a:hover {
+  color:red;
+  text-decoration: underline;
+
+}
+
+.navbar-nav .nav-item a:focus {
+  color:red;
+
+}
+
+.navbar-toggler-icon {
+	margin-left: 2rem;
+}

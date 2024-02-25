@@ -1,0 +1,36 @@
+.wd-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 125px;
+    margin: 0px;
+    margin-left: 20px;
+    font-family: "Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+  }  
+  .wd-navigation li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .wd-navigation li.wd-active {
+    border-left: 2px solid black;
+  }
+  .wd-navigation li.wd-active a {
+    color: black;
+  }
+  .wd-navigation a {
+    color: red;
+    text-decoration: none;
+  }
+
+  .x-button {
+    background-color: pink;
+    margin-right: 1rem;
+  }
+
+  .header-class {
+    float: right;
+  }

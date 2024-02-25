@@ -1,0 +1,133 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-modules > li {
+  font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.wd-modules > li > div {
+  background-color: rgba(244, 198, 223, 0.888);
+  padding: 16px;
+  border-left: 1px solid gray !important;
+  font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+}
+
+.wd-modules > li > ul > li {
+  padding: 10px;
+  border-top: 1px solid gray !important;
+  border-left: 6px solid rgb(112, 188, 145);;
+  font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+}
+
+.objectives-list {
+  border-top: 1px solid gray !important;
+  border-left: 6px solid rgb(112, 188, 145);;
+  padding: 10px;
+  font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+  
+}
+.objectives-list .fa-ellipsis-v {
+  margin-right: 15px;
+}
+
+.module-top-buttons {
+  text-align: right;
+  border-color: lightgray;
+  border:1px;
+  margin:2px;
+  padding: 16px;
+}
+
+.module-top-buttons .collapse-all {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(244, 198, 223, 0.888);
+  border: 1px solid gray;
+  font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+}
+
+.module-top-buttons .view-progress {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(244, 198, 223, 0.888);
+  border: 1px solid gray;
+  font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+}
+
+
+.module-top-buttons .publish-all {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(244, 198, 223, 0.888);
+  border: 1px solid gray;
+  font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+}
+
+.module-top-buttons .add-module {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: red;
+  color: white;
+  border: 1px solid gray;
+  font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+}
+
+.module-top-buttons .ellipsis {
+  padding: 10px;
+  background-color: rgba(244, 198, 223, 0.888);
+  border: 1px solid gray;
+  padding-left: 14px;
+  padding-right: 20px;
+  height:44px;
+}
+
+.publish-all-circle {
+  margin-right: 5px;
+  border: transparent;
+}
+
+.list-group-item {
+  border: none !important;
+}
+
+.to-do-list  li {
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+
+.to-do-list li:before {
+  margin-right: 10px;
+  content: counter(item);
+  background: red;
+  border-radius: 100%;
+  color: white;
+  width: 1.2em;
+  text-align: center;
+  display: inline-block;
+}
+
+hr {
+  color: #2d3b45;
+}
+
+
