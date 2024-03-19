@@ -7,7 +7,7 @@ import Assignments from "./Assignments";
 import CourseNavigation from "./Navigation";
 import "../Courses/index.css";
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
   const { courseId } = useParams();
   const course = courses.find((course) => course._id === courseId);
   return (
