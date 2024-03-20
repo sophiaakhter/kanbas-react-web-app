@@ -4,7 +4,7 @@ import Dashboard from "./Dashboard";
 import Courses from "./Courses";
 import courseDB from "./Database/courses.json";
 import { useState } from "react";
-import store from "./store";
+import Store from "./store";
 import { Provider } from "react-redux";
 
 function Kanbas() {
@@ -32,7 +32,7 @@ function Kanbas() {
   };
 
     return (
-      <Provider store={store}>
+      <Provider store={Store}>
       <div className="d-flex">
         <KanbasNavigation />
         <div style={{ flexGrow: 1}} >
