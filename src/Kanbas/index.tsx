@@ -7,11 +7,11 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Store from "./store";
 import { Provider } from "react-redux";
-const API_BASE = process.env.REACT_APP_API_BASE;
-const COURSES_API = "https://kanbas-node-server-app.onrender.com/api/courses";
+//const API_BASE = process.env.REACT_APP_API_BASE;
 function Kanbas() {
+  const COURSES_API = "https://kanbas-node-server-app-507o.onrender.com/api/courses";
+  //const COURSES_API = `${API_BASE}/api/courses`;
   const [courses, setCourses] = useState<any[]>([]);
-  const COURSES_API = `${API_BASE}/api/courses`;
   const findAllCourses = async () => {
     const response = await axios.get(COURSES_API);
     setCourses(response.data);

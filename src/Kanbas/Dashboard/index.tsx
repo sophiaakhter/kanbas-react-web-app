@@ -8,8 +8,8 @@ function Dashboard(
     }) {
   return (
     <div className="p-4">
-      <h1>Dashboard</h1>              <hr />
-
+      <h1>Dashboard</h1>              
+      <hr />
       <h5>Course Name</h5>
       <input value={course.name} className="form-control"
         onChange={(e) => setCourse({ ...course, name: e.target.value })} />
@@ -31,32 +31,29 @@ function Dashboard(
       </button>
 
 
-      <h2>Published Courses (12)</h2> <hr />
+      <h2>Published Courses</h2> <hr />
       <div className="row">
         <div className="row row-cols-1 row-cols-md-5 g-4">
           {courses.map((course) => (
             <div key={course._id} className="col" style={{ width: 300 }}>
               <div className="card">
                 <div className="card-body">
+                  <h5 className="card-text">{course.name}</h5>
                   <Link className="card-title" to={`/Kanbas/Courses/${course._id}/Home`}
                     style={{ textDecoration: "none", color: "navy", fontWeight: "bold" }}>
-                    <button onClick={(event) => {
+                    <button className="btn btn-warning" onClick={(event) => {
                       event.preventDefault();
                       setCourse(course);
                     }}>
                       Edit
                     </button>
-
-                    <button onClick={(event) => {
+                    <button className="btn btn-danger" onClick={(event) => {
                       event.preventDefault();
                       deleteCourse(course._id);
                     }}>
                       Delete
                     </button>
-                    {course.name}
-
                   </Link>
-                  <p className="card-text">{course.name}</p>
                   <Link to={`/Kanbas/Courses/${course._id}/Home`} className="btn btn-primary">
                     Go </Link>
                 </div>
